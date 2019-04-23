@@ -1,0 +1,11 @@
+:root{
+    --font-size-normal: 13px;
+    --font-size-large: 20px;
+    --font-size-color: white;
+    --body-color-change: orange;
+}
+
+
+#ChangeSize{
+    background: var(--body-color-change);
+}

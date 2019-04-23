@@ -1,0 +1,25 @@
+:root{
+    
+}
+
+#color-button-1{
+    background: dodgerblue;
+}
+
+#color-button-2{
+    background: rgb(34, 185, 79);
+}
+
+#color-button-3{
+    background: rgb(117, 28, 105);
+}
+
+#color-button-4{
+    background: rgb(15, 197, 182);
+}
+
+#largeBox{
+    width: 400px;
+    height: 350px;
+    border: 1px solid grey;
+}
