@@ -1,4 +1,4 @@
-body{
+/* body{
     background: rgb(46, 44, 44);
     text-align: center;
     display: flex;
@@ -13,13 +13,14 @@ body{
 
 #rangeValue{
     position: absolute;
-    top: 2px;
-    right: -60px;
-    padding: 2px;
+    top: -0.5px;
+    right: -55px;
+    padding: 4px;
     width: 50px;
     box-sizing: border-box;
-    background: #fff;
+    background: #00bcd4;
     text-align: center;
+    color: #fff;
 }
 #rangeValue:before{
     content: '';
@@ -29,12 +30,12 @@ body{
     left: -5px;
     width: 10px;
     height: 10px;
-    background: #fff;
+    background: #00bcd4;
 }
 .range{
     width: 400px;
     height: 2px;
-    background: #111;
+    background: #fff;
     -webkit-appearance: none;
     outline: none;
     border-radius: 2px;
@@ -47,3 +48,69 @@ body{
     border-radius: 50%;
     background: #00bcd4;
 }
+ */
+
+
+
+ :root {
+    --red-color:127;
+    --blue-color:127;
+    --green-color:127;
+   }
+   
+   .slider {
+     display: inline;
+     -webkit-appearance: none;
+     height: 15px;
+     border-radius: 5px;
+     background: #d3d3d3;
+     outline: none;
+     -webkit-transition: .2s;
+     transition: opacity .2s;
+     width: 80%;
+     margin-left: 5%;
+   }
+   
+   .slider::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background: #4CAF50;
+     cursor: pointer;
+   }
+   
+   .slider::-moz-range-thumb {
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background: #4CAF50;
+     cursor: pointer;
+   }
+   
+   #rgb_value_container {
+     /*margin: 16px auto;*/
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+   }
+   
+   #red_slider {
+     background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, var(--green-color), var(--blue-color)));
+   }
+   
+   #green_slider {
+     background: linear-gradient(to right, rgb(0, 0, 0), rgb(var(--red-color), 255, var(--blue-color)));
+   }
+   
+   #blue_slider {
+     background: linear-gradient(to right, rgb(0, 0, 0), rgb(var(--red-color), var(--green-color), 255));
+   }
+   
+   #color_box {
+     width: 250px;
+     height: 250px;
+     margin: 30px auto;
+     background-color: rgb(var(--red-color), var(--green-color), var(--blue-color));
+   }
