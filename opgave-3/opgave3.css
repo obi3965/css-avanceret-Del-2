@@ -1,5 +1,5 @@
 :root{
-    
+    --chosen-color:red;
 }
 
 #color-button-1{
@@ -18,8 +18,9 @@
     background: rgb(15, 197, 182);
 }
 
-#largeBox{
+#chosen-color-instance-1{
     width: 400px;
     height: 350px;
     border: 1px solid grey;
+    background: var(--chosen-color)
 }
