@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+h2{
+    font-size: 60px;
+    background: dodgerblue;
+    padding: 8px 24px;
+    border-radius: 15px;
+}
+
+div:nth-child(1){
+    background-image: url("https://images.pexels.com/photos/316010/pexels-photo-316010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+
+div:nth-child(2){
+    background: mediumseagreen;
+}
+
+div:nth-child(3){
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/373367/pexels-photo-373367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+div:nth-child(4){
+    background: greenyellow;
+}
