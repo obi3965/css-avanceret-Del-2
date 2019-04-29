@@ -1,3 +1,39 @@
 .parent{
+    
+    margin-top: 10%;
+     width: 130px;
+     height: 50px;
+    
+}
+
+
+.child{
+    color:dodgerblue;
     position: relative;
+    background: orange;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child i{
+    font-size: 70px;
+}
+.child span{
+    color: rgb(250, 249, 249);
+    font-size: 15px;
+    right: 19%;
+    margin-top: 30px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    position: absolute;
+    top: 28%;
 }
