@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: Georgia;
+}
+
+
+#parallax{
+    background-image: url("https://images.pexels.com/photos/2180090/pexels-photo-2180090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: white !important;
+    transition: all 0.4s;
+    height: 120px !important;
+}
+.nav-link{
+    color: deeppink !important;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+.navbar-brand{
+    color: brown !important;
+}
+
+#section-1{
+    height: 30%;
+    width: 100%;
+}
+
+#section-1 p{
+  padding: 20px;
+}
